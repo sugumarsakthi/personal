@@ -1,6 +1,6 @@
 .header-container{
     .bg-light{
-        background-color: #0c3688 !important;
+        background-color: #1e1f20 !important;
         height: 60px;        
         position: fixed;
         left: 0px;
@@ -21,6 +21,9 @@
             }
         }
     }  
+    .nav-link.active-link{
+        color: #d2a104 !important;
+    }
 }
 .navbar>.container-fluid{
     height: 60px;
@@ -30,6 +33,7 @@ a.navbar-brand img{
     height: 40px;
     border-radius: 50%;
 }
+
 @media (max-width: 993px){
     ::ng-deep .cdk-overlay-connected-position-bounding-box,
     ::ng-deep .cdk-overlay-pane,
